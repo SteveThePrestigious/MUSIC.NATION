@@ -1,0 +1,529 @@
+*
+{
+    margin: 0;
+    box-sizing:border-box;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background: whie;
+    min-width: 160px;
+    box-shadow: 2px 2px 15px 2px rgba(8, 8, 201, 0.2);
+    z-index: 1;
+}
+.hud{
+    background: rgb(4, 39, 114);
+    position: sticky;
+    top: 0;
+    z-index: 9999999;
+
+}
+.rest .nav-item:last-child{
+    padding-right: 5.5em ;
+}
+.rest{
+    position: stiky;
+
+}
+ .nav-item{
+    padding: 0.9em;
+    color: rgb(15, 5, 5);
+}
+ .navbar-brand{
+    padding-left: 1em;
+    color: rgb(10, 7, 7);
+}
+ .nav-link{
+    color: rgb(12, 6, 6);
+}
+
+ .nav-link:hover{
+    color: rgb(25, 0, 255);
+}
+.sect{
+    background-image: url(hu.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+.sect .row .col-md-5{
+    padding: 4.2vmin 1vmin;
+    color: #fff;
+}
+.sect .row .col-md-7{
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    color: #fff;
+    
+}
+.sect .row .col-md-5 img{
+    width: 120%;
+    
+}
+.sect .container .col-md-7 h6{
+    padding: 1vmin;
+    letter-spacing: 4px;
+    color: #fff;
+}
+.sect .container .col-md-7 h1{
+    font-size: 8vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+.sect .container .col-md-7 p{
+    padding: 1vmin;
+}
+.sect .container .col-md-7 button{
+    border-radius: 30px;
+    font-weight: bold;
+}
+/*section 1*/
+.section-1{
+padding: 20vmin 0;
+}
+.section-1 .row .col-md-6 .pray img{
+opacity: 0.8;
+width: 90%;
+border-radius: 0.2em;
+height: 700px;
+}
+.section-1 .row .col-md-6:last-child {
+    position: relative;
+
+}
+.section-1 .row .col-md-6 .panel{
+    position: absolute;
+    top: 15vmin;
+    left: -28vmin;
+    background: rgb(230, 227, 227);
+    border-radius: 3px;
+    text-align: left;
+    padding:10vmin 9vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgb(107, 62, 56);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 10;
+}
+.section-1 .row .col-md-6 .panel h1{
+    font-weight: blod;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
+.section-1 .row .col-md-6 .panel p{
+    font-size: 0.9em;
+    color: rgba(17, 16, 7, 0.7);
+}
+/*section 2*/
+.cover{
+    width: 100%;
+    height: 55vmin;
+    background: url(image/ban\ 7.jpg);
+    background-position: -24rem -19rem;
+    background-size: 150%;
+    position: relative;
+}
+.cover .content{
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+}
+.cover .content>h1 {
+    color: #fff;
+    font-size: 6vmin;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.cover .content>p {
+    color: black;
+    font-size: 6vmin;
+
+}
+.numbers .rect{
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    height: 12rem;
+    width: 17rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: .5em;
+    box-shadow: 1px 2px 550px 0px rgb(185, 22, 22);
+    text-align: center;
+}
+.numbers{
+    margin-top: -15vmin;
+}
+.numbers .rect h1{
+    font-size: 5rem;
+    color: tomato;
+}
+.numbers .rect p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.purchase>h1{
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.purchase>p{
+    color: black;
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+}
+.purchase .cards .card{
+    width: 20rem;
+    margin: 3vmin;
+}
+.cards .div{
+    padding: 0;
+    margin: 0;
+}
+.cards .title{
+    background: rgba(218, 214, 214, 0.7);
+    background-size: cover;
+    padding: 1.4rem 2.5rem;
+    font-size: 2vmin;
+}
+.cards .card-text{
+padding: 2.5rem 3rem;
+color: black;
+}
+.card-body .pricing{
+    background: rgba(218, 214, 214, 0.7);
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.card-body .pricing>h1{
+    font-size: 10vmin;
+    padding: 1em 0.5em;
+}
+/*section 3*/
+.section-3{
+    height: 70vmin;
+    margin-top: 15vmin;
+    background: tomato;
+}
+.section-3 .col-md-12>h1{
+    padding: 1em 0 0.5em 0;
+    color: #fff;
+    font-size: 6vmin;
+}
+.section-3 .col-md-12>p{
+    padding: 0.4em;
+    padding-bottom: 2em;
+    color: #fff;
+    font-size: 3vmin;
+}
+.section-3 .desktop{
+    background: #fff;
+    display: inline-block;
+    border-radius: 3em;
+    padding: 3vmin 4.5vmin;
+    margin: 1em ;
+}
+.section-3 .desktop h3{
+    font-size: 4vmin;
+}
+/*section-4*/
+.section-4 .container h1{
+    font-size: 6vmin;
+    padding-top: 15vmin;
+}
+.section-4 .team{
+    padding: 10vmin 4vmin;
+}
+.section-4 .card{
+    width: 22rem;
+    margin-top: 10vmin;
+}
+.section-4 .card .card-text{
+    padding: 0.5em;
+}
+.section-4 .card .card-body>a{
+    font-size: 1.5em;
+}
+.section-4 .carousel-item{
+    padding-right: 3rem;
+}
+.border-radius{
+    border-radius:340px;
+    width: 60%;
+    text-align: center;
+}
+/*footer*/
+footer{
+    background: rgba(0, 0, 0, 0.7);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+footer p>span{
+ color: orangered;
+}
+footer input{
+    border: none !important;
+}
+footer input::-ms-value{
+    color: white!important;
+}
+footer .input-group .input-group-text{
+    background: orangered;
+    border-radius: none;
+}
+footer .column i{
+    color: deeppink;
+}
+footer .column i + i {
+    padding: 0 0.5em;
+}
+
+table{
+    background-image: url(image/bn\ 2.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.name{
+    height: 100vh;
+}
+.name h1{
+    text-align: center;
+}
+.praise p{
+    padding-left: 4%;
+}
+.praise{
+    display: flex;
+    margin-top: 7%;
+    
+}
+.on{
+    display: block;
+    padding-left: 13%;
+    
+}
+.progress{
+    width: 500%;
+}
+.information{
+    cursor: pointer;
+}
+.pho h1{
+    text-align: center;
+    color: rgb(223, 16, 16);
+}
+.pho p{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(194, 13, 13);
+}
+.ale{
+    background-image: url(mike.webp);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+.hs{
+ background-image: url(kiz.jpg);
+ background-position: center;
+ background-size: cover;
+ height: 80vh;
+}
+.cont{
+    background-image: url(image/ban\ 2.jpg);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+.connect {
+    text-align: center;
+}
+.connect h1{
+    font-size: 50px;
+    color: rgb(15, 8, 8);
+}
+.connect p{
+    font-size: 15px;
+    color: rgb(8, 3, 3);
+}
+.rec{
+    margin-top: 5%;
+    display: flex;
+    justify-content:space-around;
+}
+ .ac{
+    top: 20%;
+    display: block;
+ }
+ .add{
+    padding-left: 20%;
+    color: rgb(14, 7, 7);
+ }
+ .ab{
+    position: absolute;
+    top:27%;
+    font-size: 35px;
+    color: rgb(168, 9, 9);
+    
+ }
+ .ar{
+    position: absolute;
+    top:63%;
+    font-size: 35px;
+    color: rgb(165, 19, 19);
+ }
+ .ao{
+    position: absolute;
+    top:48%;
+    font-size: 35px;
+    color: rgb(170, 15, 15);
+ }
+ .contac{
+    border: 1px solid #fff;
+    border-radius: 7px;
+    background-color: #fff;
+    padding: 70px 39px 70px 39px;
+    box-shadow: 2px 4px 7px 6px rgb(98, 62, 155);
+    transition: 0.2s;
+ }
+ .contac:hover{
+    transform: scale(1.075);
+    transition: 0.5s ease;
+    opacity: 2;
+ }
+@media screen and (max-width: 768px) {
+ header .navbar-brand {
+      padding-left: 4rem;
+      }
+     .row .undraw{
+        display: none;
+     }
+     .cont{
+        height: 150%;
+     }
+     
+     .add{
+        padding-left: 25%;
+     }
+      .pray{
+        height: 50px;
+        padding: 2px 3px 4px 1px;
+        display: none;
+      }
+
+    .section-1 .row .col-md-6 .panel{
+      position: initial;
+      height: initial ;
+      width: initial;
+      padding: 72px 3px 2px 4px;
+      left: 3vmin;
+      }
+      .section-2 .cover{
+      background-position: -25vmin -10vmin;
+      }
+      .numbers .rect{
+        width: 10rem;
+        height: 8rem;
+      }
+      .numbers .rect h1{
+        font-size: 2rem;
+      }
+      .section-3{
+        height: inherit;
+        padding: 10vmin!important;
+      }
+      .section-3 .row h1{
+        padding:  6vmin 2vmin;
+      }
+      .section-3 .row .col-md-6{
+        text-align: center!important;
+      }
+      .section-3 .desktop h1{
+        font-size: 8vmin;
+      }
+      .section-4 .carousel-item{
+        padding-left: 0.6rem;
+      }
+      .praise{
+        display: block;
+      }
+      .name{
+        height: 150vh;
+      }
+      .progress{
+        width: 80%;
+      }
+      .on{
+        padding-left: 5%;
+        
+      }
+.section-4 .team{
+ display: flex;
+ flex-direction: column;
+ align-content:center;
+ padding-right: 50vmin;
+}
+.section-4 .carousel-inner{
+    width: 24rem;
+}
+    }
+ @media screen and (max-width: 425px){
+    footer .row .col-md-2{
+        margin-top: 8vmin;
+    }
+ }
+ @media screen and (max-width: 320px){
+    .hud{
+    position: sticky;
+        top: 0;
+        z-index: 9999999;
+        width: 100%;
+    }
+    .section-4 .card{
+        width: 18rem;
+    }
+     .section-4 .carousel-inner{
+        margin-left: -14vmin;
+     }
+     .rec{
+        display: block;
+     }
+     .contac{
+        margin-top: 50%;
+     }
+
+ }
+ @media screen and (max-width: 385px){
+    .rec{
+        display: block;
+    }
+    .contac{
+        margin-top: 50%;
+        box-shadow: none;
+     }
+     .ab{
+        padding-left: 13%;
+        position: absolute;
+        top:16%;
+        font-size: 35px;
+        color: rgb(151, 13, 13);
+     }
+     .ar{
+        padding-left: 10%;
+        position: absolute;
+        top:32%;
+        font-size: 35px;
+        color: rgb(119, 10, 10);
+     }
+     .ao{
+        padding-left: 10%;
+        position: absolute;
+        top:25%;
+        font-size: 35px;
+        color: rgb(156, 8, 8);
+ }
+ .name{
+    height: 200vh;
+ }
+}
